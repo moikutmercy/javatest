@@ -19,6 +19,10 @@ public class MathTest {
         return a + b;
     }
 
+    public int sum1(int a, int b) {
+        return Integer.sum(a,b);
+    }
+
     public int takeaway(int a, int b) {
         return a - b;
     }
